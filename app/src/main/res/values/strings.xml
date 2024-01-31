@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">SanRafa</string>
+    <string name="titulohomehoteles">Hoteles en Valparaiso</string>
+    <string name="descripcionhomehoteles">En nuestro pueblo encontraras alojamientos desde 35000 COP,
+        hasta lujosas cañas dotadas de todos los elementos para promover un descanso restaurador</string>
+    <string name="botonhomehoteles">Ver Hoteles</string>
+
+    <string name="titulohomerestaurantes">Restaurantes en Valparaiso</string>
+    <string name="descripcionhomerestaurantes">En el restaurante La Aldea puedes encontrar los platos
+        tipicos de la region.</string>
+    <string name="botonhomerestauantes">Ver Hoteles</string>
 </resources>
