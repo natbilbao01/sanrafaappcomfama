@@ -9,4 +9,20 @@
     <string name="descripcionhomerestaurantes">En el restaurante La Aldea puedes encontrar los platos
         tipicos de la region.</string>
     <string name="botonhomerestauantes">Ver Hoteles</string>
+
+    <string name="menuopcion1">Ingles</string>
+    <string name="menuopcion2">Español</string>
+    <string name="menuopcion3">Portugues</string>
+    <string name="menuopcion4">Reseña</string>
+    <string name="menuopcion5">Acerca de</string>
+
+    <string name="tituloresena">Historia de Valparaiso</string>
+    <string name="inforesena">Valparaíso, es la tierra del General Rafael Uribe Uribe. Su referente
+        más conocido es el tronco de la vieja Ceiba que durante años le dio sombra al Parque Principal.
+        Claro que ése no es su único atractivo, pues cuenta con petroglifos, una caverna, cascadas y
+        muchos otros lugares de gran belleza que hacen parte de la ruta que le proponen al turista.
+        Este municipio tiene muchas fincas de recreo y en su jurisdicción, aunque llegando por La
+        Pintada, está el imponente Cañón de Pipintá, donde está el mejor recorrido para la práctica
+        del rafting que tiene Antioquia.</string>
+
 </resources>
