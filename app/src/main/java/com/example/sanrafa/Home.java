@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -11,6 +12,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+
+import java.util.Locale;
 
 public class Home extends AppCompatActivity {
 
@@ -48,7 +51,8 @@ public class Home extends AppCompatActivity {
         botonRestaurantes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(Home.this, "Hizo clic en restaurantes", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(Home.this, Restaurante.class);
+                startActivity(intent);
             }
         });
 
@@ -56,6 +60,8 @@ public class Home extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(Home.this, "Hizo clic en sitios", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(Home.this, Sitios.class);
+                startActivity(intent);
             }
         });
 
@@ -72,11 +78,17 @@ public class Home extends AppCompatActivity {
         int itemSeleccionado=item.getItemId();
 
         if(itemSeleccionado==R.id.opcion1){
-            Toast.makeText(this, "presiono opción 1", Toast.LENGTH_SHORT).show();
+        this.cambiarIdioma("en");
+        Intent intentIngles=new Intent(Home.this,Home.class);
+        startActivity(intentIngles);
         }else if(itemSeleccionado==R.id.opcion2){
-            Toast.makeText(this, "presiono opción 2", Toast.LENGTH_SHORT).show();
+            this.cambiarIdioma("es");
+            Intent intentIngles=new Intent(Home.this,Home.class);
+            startActivity(intentIngles);
         } else if (itemSeleccionado==R.id.opcion3) {
-            Toast.makeText(this, "presiono opción 3", Toast.LENGTH_SHORT).show();
+            this.cambiarIdioma("pt");
+            Intent intentIngles=new Intent(Home.this,Home.class);
+            startActivity(intentIngles);
         } else if (itemSeleccionado==R.id.opcion4) {
             Intent intentResena= new Intent(Home.this, Resena.class);
             startActivity(intentResena);
@@ -84,6 +96,21 @@ public class Home extends AppCompatActivity {
             Toast.makeText(this, "presiono opción 5", Toast.LENGTH_SHORT).show();
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    public void cambiarIdioma(String idioma){
+        //configurar el idioma del telefono desde la app
+        Locale lenguaje=new Locale(idioma);
+        Locale.setDefault(lenguaje);
+
+        //configuramos globalmente el telefono
+        Configuration configuracionTelefono=getResources().getConfiguration();
+        configuracionTelefono.locale=lenguaje;
+
+        //Ejecuto la configuracion establecida
+        getBaseContext().getResources().updateConfiguration(configuracionTelefono,getBaseContext().getResources().getDisplayMetrics());
+
+
     }
 
     }

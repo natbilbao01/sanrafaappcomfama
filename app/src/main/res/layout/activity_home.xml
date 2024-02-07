@@ -43,7 +43,7 @@
         app:layout_constraintVertical_bias="0.2"
         android:layout_marginHorizontal="20dp"
         android:backgroundTint="@color/yellowgreen"
-        android:text="Hoteles"
+        android:text="@string/botonhoteles"
         android:textColor="@color/black"
         />
     <Button
@@ -57,7 +57,7 @@
         app:layout_constraintVertical_bias="0.1"
         android:layout_marginHorizontal="20dp"
         android:backgroundTint="@color/yellowgreen"
-        android:text="Restaurantes"
+        android:text="@string/botonrestaurante"
         android:textColor="@color/black"
         />
 
@@ -72,7 +72,7 @@
         app:layout_constraintVertical_bias="0.1"
         android:layout_marginHorizontal="20dp"
         android:backgroundTint="@color/yellowgreen"
-        android:text="Sitios de interes"
+        android:text="@string/botonsitios"
         android:textColor="@color/black"
         />
 </androidx.constraintlayout.widget.ConstraintLayout>

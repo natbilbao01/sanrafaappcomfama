@@ -1,5 +1,10 @@
 <resources>
-    <string name="app_name">SanRafa</string>
+    <string name="app_name">Valparaiso</string>
+
+    <string name="botonhoteles">Hoteles</string>
+    <string name="botonrestaurante">Restaurantes</string>
+    <string name="botonsitios">sitios turisticos</string>
+
     <string name="titulohomehoteles">Hoteles en Valparaiso</string>
     <string name="descripcionhomehoteles">En nuestro pueblo encontraras alojamientos desde 35000 COP,
         hasta lujosas cañas dotadas de todos los elementos para promover un descanso restaurador</string>

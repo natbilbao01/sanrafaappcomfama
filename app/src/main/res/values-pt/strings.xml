@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <string name="botonhoteles">Hotéis</string>
+        <string name="botonrestaurante">Restaurante</string>
+        <string name="botonsitios">sítios turisticos</string>
+
+
+        <string name="app_name">Valparaiso</string>
+        <string name="titulohomehoteles">Hotéis em Valparaíso</string>
+        <string name="descripcionhomehoteles">Em nossa cidade você encontrará acomodações a partir de 35.000 COP,
+        a luxuosas hastes equipadas com todos os elementos para promover um descanso reparador</string>
+        <string name="botonhomehoteles">Ver Hoteles</string>
+
+        <string name="titulohomerestaurantes">Restaurantes em Valparaíso</string>
+        <string name="descripcionhomerestaurantes">No restaurante La Aldea você encontra os pratos
+        típico da região.</string>
+        <string name="botonhomerestauantes">Ver Restaurantes</string>
+
+        <string name="menuopcion1">Inglês</string>
+        <string name="menuopcion2">Espanhol</string>
+        <string name="menuopcion3">Português</string>
+        <string name="menuopcion4">Análise</string>
+        <string name="menuopcion5">Sobre</string>
+
+        <string name="tituloresena">História de Valparaíso</string>
+        <string name="inforesena">Valparaíso é terra do General Rafael Uribe Uribe. Sua referência
+        O mais conhecido é o tronco da velha Ceiba que durante anos deu sombra ao Parque Principal.
+        Claro que esse não é o único atrativo, pois possui pinturas rupestres, caverna, cachoeiras e
+        muitos outros locais de grande beleza que fazem parte do roteiro que propõem aos turistas.
+        Este município possui muitas fazendas recreativas e em sua jurisdição, embora chegando por La
+        Pintada, é o imponente Cânion Pipintá, onde é o melhor percurso para a prática
+        do rafting que Antioquia possui.</string>
+
+</resources>

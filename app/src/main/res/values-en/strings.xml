@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <string name="botonhoteles">Hotels</string>
+        <string name="botonrestaurante">Restaurants</string>
+        <string name="botonsitios">tourist sites</string>
+
+        <string name="app_name">Valparaiso</string>
+        <string name="titulohomehoteles">Hotels in Valparaiso</string>
+        <string name="descripcionhomehoteles">In our town you will find accommodation from 35,000 COP,
+        to luxurious rods equipped with all the elements to promote a restorative rest</string>
+        <string name="botonhomehoteles">See Hotels</string>
+
+        <string name="titulohomerestaurantes">Restaurants in Valparaiso</string>
+        <string name="descripcionhomerestaurantes">In the La Aldea restaurant you can find the dishes
+        typical of the region.</string>
+        <string name="botonhomerestauantes">See Restaurant</string>
+
+        <string name="menuopcion1">English</string>
+        <string name="menuopcion2">Spanish</string>
+        <string name="menuopcion3">Portuguese</string>
+        <string name="menuopcion4">Review</string>
+        <string name="menuopcion5">About</string>
+
+        <string name="tituloresena">History of Valparaiso</string>
+        <string name="inforesena">Valparaíso is the land of General Rafael Uribe Uribe. Your reference
+        The best known is the trunk of the old Ceiba tree that for years provided shade to the Main Park.
+        Of course, that is not its only attraction, as it has petroglyphs, a cavern, waterfalls and
+        many other places of great beauty that are part of the route they propose to tourists.
+        This municipality has many recreational farms and in its jurisdiction, although arriving through La
+        Pintada, is the imposing Pipintá Canyon, where the best route for practice is
+        of the rafting that Antioquia has.</string>
+
+
+
+
+</resources>
