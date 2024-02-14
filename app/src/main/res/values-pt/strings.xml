@@ -17,6 +17,15 @@
         típico da região.</string>
         <string name="botonhomerestauantes">Ver Restaurantes</string>
 
+        <string name="titulohomesitios">Pontos turísticos em Valparaíso</string>
+        <string name="descripcionhomesitios">O monumento ao Boi é um símbolo de grande interesse desde o
+        O boi sempre foi utilizado para cultivar a terra em Valparaíso, daí suas principais festas, as festas do boi. </string>
+        <string name="botonhomesitios">Ver locais turísticos</string>
+
+        <string name="tituloacerca">Natalia Martinez B</string>
+        <string name="descripcionacerca">Desenvolvedor de software júnior e designer gráfico, apaixonado
+        para ilustração, amante de pássaros e fotografia. </string>
+
         <string name="menuopcion1">Inglês</string>
         <string name="menuopcion2">Espanhol</string>
         <string name="menuopcion3">Português</string>

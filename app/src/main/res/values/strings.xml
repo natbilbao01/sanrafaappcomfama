@@ -13,7 +13,18 @@
     <string name="titulohomerestaurantes">Restaurantes en Valparaiso</string>
     <string name="descripcionhomerestaurantes">En el restaurante La Aldea puedes encontrar los platos
         tipicos de la region.</string>
-    <string name="botonhomerestauantes">Ver Hoteles</string>
+    <string name="botonhomerestauantes">Ver Restaurantes</string>
+
+    <string name="titulohomesitios">Sitios turisticos en Valparaiso</string>
+    <string name="descripcionhomesitios">El monumento al Buey es un simbolo de gran interes ya que el
+        buey siempre fue usado para labrar la tierra en Valparaiso de alli sus fiestas principales, las fiestas del buey </string>
+    <string name="botonhomesitios">Ver Sitios Turisticos</string>
+
+    <string name="tituloacerca">Natalia Martinez B</string>
+    <string name="descripcionacerca">Desarrolladora de software junior y diseñadora grafica, apasionada
+        por la ilustracion, amante de las aves, y la fotografia. </string>
+
+
 
     <string name="menuopcion1">Ingles</string>
     <string name="menuopcion2">Español</string>

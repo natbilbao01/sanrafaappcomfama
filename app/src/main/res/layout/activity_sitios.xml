@@ -6,4 +6,72 @@
     android:layout_height="match_parent"
     tools:context=".Sitios">
 
+    <ImageView
+        android:id="@+id/imgrestaurante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:src="@drawable/buey"
+        android:adjustViewBounds="true"
+        app:layout_constraintVertical_bias="0"
+
+        />
+
+    <TextView
+        android:id="@+id/titulohomesitios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/imgrestaurante"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/titulohomesitios"
+        android:textAlignment="center"
+        android:textSize="28dp"
+        app:layout_constraintVertical_bias="0.1"
+        />
+
+    <TextView
+        android:id="@+id/txsitios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/titulohomesitios"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/descripcionhomesitios"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        app:layout_constraintVertical_bias="0.1"
+        />
+
+    <ImageView
+        android:id="@+id/manohoteles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mano"
+        app:layout_constraintTop_toBottomOf="@id/txsitios"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintVertical_bias="0.2"
+        />
+
+    <Button
+        android:id="@+id/botonhomesitios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/txsitios"
+        app:layout_constraintStart_toEndOf="@id/manohoteles"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.2"
+        app:layout_constraintHorizontal_bias="0.2"
+        android:backgroundTint="@color/green"
+        android:text="@string/botonhomesitios"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>

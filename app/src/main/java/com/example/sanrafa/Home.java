@@ -93,7 +93,8 @@ public class Home extends AppCompatActivity {
             Intent intentResena= new Intent(Home.this, Resena.class);
             startActivity(intentResena);
         } else if (itemSeleccionado==R.id.opcion5) {
-            Toast.makeText(this, "presiono opción 5", Toast.LENGTH_SHORT).show();
+            Intent intentResena= new Intent(Home.this, Acercade.class);
+            startActivity(intentResena);
         }
         return super.onOptionsItemSelected(item);
     }

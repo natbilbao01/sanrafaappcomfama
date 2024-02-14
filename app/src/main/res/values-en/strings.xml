@@ -16,6 +16,15 @@
         typical of the region.</string>
         <string name="botonhomerestauantes">See Restaurant</string>
 
+        <string name="titulohomesitios">Tourist sites in Valparaiso</string>
+        <string name="descripcionhomesitios">The monument to the Ox is a symbol of great interest since the
+        The ox was always used to till the land in Valparaiso, hence its main festivals, the ox festivals.</string>
+        <string name="botonhomesitios">See Tourist Sites</string>
+
+        <string name="tituloacerca">Natalia Martinez B</string>
+        <string name="descripcionacerca">Junior software developer and graphic designer, passionate
+        for illustration, lover of birds, and photography. </string>
+
         <string name="menuopcion1">English</string>
         <string name="menuopcion2">Spanish</string>
         <string name="menuopcion3">Portuguese</string>
