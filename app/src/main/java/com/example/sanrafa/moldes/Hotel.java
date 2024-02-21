@@ -13,7 +13,7 @@ public class Hotel {
 
     private Integer calificacion;
 
-    private Integer fotoGrafia;
+    private Integer fotografia;
 
     public Hotel() {
     }
@@ -25,7 +25,7 @@ public class Hotel {
         this.telefono = telefono;
         this.direccion = direccion;
         this.calificacion = calificacion;
-        this.fotoGrafia = fotoGrafia;
+        this.fotografia = fotoGrafia;
     }
 
     public String getNombre() {
@@ -77,10 +77,10 @@ public class Hotel {
     }
 
     public Integer getFotoGrafia() {
-        return fotoGrafia;
+        return fotografia;
     }
 
     public void setFotoGrafia(Integer fotoGrafia) {
-        this.fotoGrafia = fotoGrafia;
+        this.fotografia = fotoGrafia;
     }
 }
