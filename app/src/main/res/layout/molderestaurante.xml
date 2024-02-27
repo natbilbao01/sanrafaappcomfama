@@ -46,7 +46,7 @@
             app:layout_constraintStart_toEndOf="@id/nombrerestaurante"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
-            android:text="Entre 20k y 60k"
+            android:text="Entre $20USD y $60USD"
             android:textSize="18dp"
             android:textStyle="bold"/>
 

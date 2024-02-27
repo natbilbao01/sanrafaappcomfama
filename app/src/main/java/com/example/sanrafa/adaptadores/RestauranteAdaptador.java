@@ -56,7 +56,7 @@ public class RestauranteAdaptador extends RecyclerView.Adapter<RestauranteAdapta
         }
 
         public void pintarMolde(Restaurantes restaurantes) {
-            fotomolderestaurante.setImageResource();
+            //fotomolderestaurante.setImageResource();
         }
     }
 }

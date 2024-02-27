@@ -1,0 +1,33 @@
+package com.example.sanrafa;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import android.os.Bundle;
+
+import com.example.sanrafa.moldes.Restaurantes;
+
+import java.util.ArrayList;
+
+public class ListaRestaurantes extends AppCompatActivity {
+
+    ArrayList<Restaurantes>ListaRestaurantes=new ArrayList<>();
+    RecyclerView recyclerViewRestaurantes;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_lista_restaurantes);
+
+        recyclerViewRestaurantes=findViewById(R.id.Listadinamicaderestaurantes);
+        recyclerViewRestaurantes.setLayoutManager(new LinearLayoutManager(this,RecyclerView.VERTICAL,false));
+
+
+
+    }
+    public void crearlistarestaurantes(){
+        ListaRestaurantes.add(new Restaurantes("La Aldea",))
+    }
+
+}
