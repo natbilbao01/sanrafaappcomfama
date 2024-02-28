@@ -1,5 +1,6 @@
 package com.example.sanrafa.adaptadores;
 
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,6 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.sanrafa.R;
+import com.example.sanrafa.SitiosAmpliados;
 import com.example.sanrafa.moldes.Sitios;
 
 import java.util.ArrayList;
@@ -57,6 +59,19 @@ public class SitiosAdaptador extends RecyclerView.Adapter<SitiosAdaptador.viewHo
         }
 
         public void pintarMolde(Sitios sitios) {
+            fotomoldesitios.setImageResource(sitios.getFotoGrafia());
+            nombresitios.setText(sitios.getNombre());
+            preciositios.setText(sitios.getTarifa());
+
+
+
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent=new Intent(itemView.getContext(), SitiosAmpliados.class);
+                    itemView.getContext().startActivity(intent);
+                }
+            });
         }
     }
 }

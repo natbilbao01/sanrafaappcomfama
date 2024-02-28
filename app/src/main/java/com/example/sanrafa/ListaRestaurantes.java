@@ -27,7 +27,7 @@ public class ListaRestaurantes extends AppCompatActivity {
 
     }
     public void crearlistarestaurantes(){
-        ListaRestaurantes.add(new Restaurantes("La Aldea",))
+        ListaRestaurantes.add(new Restaurantes("La Aldea","20USD","Comida tipica de la region","6042589569","Calle principal",5,R.drawable.restaurante02));
     }
 
 }
