@@ -6,6 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".HotelesAmpliados">
 
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       app:layout_constraintHeight="90dp"
+       android:background="@color/green"
+       />
+
     <TextView
         android:id="@+id/tituloampliadohoteles"
         android:layout_width="match_parent"
@@ -14,11 +21,31 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:text="La Aldea"
-        android:textSize="30dp"
+        android:text="Hotel"
+        android:textColor="@color/white"
+        android:textSize="40dp"
         android:textAlignment="center"
         android:textStyle="bold"
-        app:layout_constraintVertical_bias="0.05"
+        app:layout_constraintVertical_bias="0.03"
+        android:shadowColor="@color/black"
+        android:shadowRadius="30"
+        />
+
+    <TextView
+        android:id="@+id/telefonohoteles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telefono: 3206588963"
+        android:textColor="@color/blue"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fotoampliadohoteles"
+        app:layout_constraintVertical_bias="0.0"
+        android:shadowColor="@color/black"
+        android:shadowRadius="3"
         />
 
     <ImageView
@@ -30,52 +57,63 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintVertical_bias="0.1"
-        android:src="@drawable/restaurante01"
+        android:src="@drawable/laceibahotel"
         android:adjustViewBounds="true"
-        />
-
-    <TextView
-        android:id="@+id/calificacionhoteles"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Calificacion 5"
-        android:textSize="20dp"
-        app:layout_constraintTop_toBottomOf="@id/fotoampliadohoteles"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.90"
-        app:layout_constraintVertical_bias="0.02"
-        android:textColor="@color/blue"
         />
 
         <TextView
             android:id="@+id/descripcionhoteles"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nuestro hotel ofrece un ambiente tranquilo, y campestre"
+            android:text="Nuestro hotel ofrece un ambiente tranquilo, y campestre. , habitaciones cómodas, limpias, agua caliente, parqueadero gratuito."
             android:textSize="18dp"
             app:layout_constraintTop_toBottomOf="@id/fotoampliadohoteles"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_bias="0.05"
-            app:layout_constraintVertical_bias="0.20"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintVertical_bias="0.40"
             android:textAlignment="center"
             />
 
-        <TextView
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="108dp"
+        android:background="@color/green"
+        app:layout_constraintHeight="40dp"
+        app:layout_constraintTop_toBottomOf="@id/fotoampliadohoteles"
+         />
+
+    <TextView
             android:id="@+id/direccionhoteles"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Calle 10 Villa Nueva #8-73,Valparaiso, Antioquia"
+            android:text="Calle 10 Villa Nueva #8-73, Valparaiso, Antioquia"
             android:textSize="18dp"
+            android:textColor="@color/white"
             app:layout_constraintTop_toBottomOf="@id/descripcionhoteles"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_bias="0."
-            app:layout_constraintVertical_bias="0.10"
+            app:layout_constraintHorizontal_bias="0.40"
+            app:layout_constraintVertical_bias="0.7"
             android:textAlignment="center"
             />
+
+    <TextView
+        android:id="@+id/calificacionhoteles"
+        android:layout_width="match_parent"
+        android:layout_height= "wrap_content"
+        android:text="4 Estrellas"
+        android:textSize="18dp"
+        android:textColor="@color/goldenrod"
+        app:layout_constraintBottom_toBottomOf="@id/tituloampliadohoteles"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textAlignment="textEnd"
+
+
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>

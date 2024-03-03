@@ -6,4 +6,62 @@
     android:layout_height="match_parent"
     tools:context=".RestaurantesAmpliados">
 
+    <ImageView
+        android:id="@+id/fotoampliadorestaurante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/laceibahotel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        />
+
+    <TextView
+        android:id="@+id/titulorestaurantes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NOMBRE RESTAURANTE"
+        android:textColor="@color/blue"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fotoampliadorestaurante"
+        app:layout_constraintVertical_bias="0"
+        android:shadowColor="@color/black"
+        android:shadowRadius="3"
+        />
+
+    <TextView
+        android:id="@+id/preciorestaurantes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-Precios: $15USD-$20USD"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/titulorestaurantes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+
+    <TextView
+        android:id="@+id/direccionrestaurantes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calle buena mesa, Valparaiso, Antioquia"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/preciorestaurantes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textAlignment="center"
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
