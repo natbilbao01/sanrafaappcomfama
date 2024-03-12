@@ -35,8 +35,12 @@ public class ListaHoteles extends AppCompatActivity {
                 "6045892056","calle principal 107",4,R.drawable.hotel));
         ListaHoteles.add(new Hotel("Hotel Donde guillermo","60 usd","Ambiente familiar",
                 "604856951","Cra 37 no 28-10",3,R.drawable.hotel02));
-        ListaHoteles.add(new Hotel("Hotel Donde guillermo","60 usd","Ambiente familiar",
-                "604856951","Cra 37 no 28-10",3,R.drawable.hotel02));
+        ListaHoteles.add(new Hotel("Hotel Villa Camila","30 usd","Zona Campestre",
+                "60986551","Cra 12 no 28-10",3,R.drawable.villacamila));
+        ListaHoteles.add(new Hotel("Hotel Guadalejo","30 usd","Zona Campestre",
+                "60986551","Cra 12 no 28-10",3,R.drawable.hotelguadalejo));
+        ListaHoteles.add(new Hotel("Hotel La Esquina","30 usd","Zona Campestre",
+                "60986551","Cra 12 no 28-10",3,R.drawable.hotellaesquina));
 
     }
 

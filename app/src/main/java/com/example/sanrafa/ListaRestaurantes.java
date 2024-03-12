@@ -28,6 +28,11 @@ public class ListaRestaurantes extends AppCompatActivity {
     }
     public void crearlistarestaurantes(){
         ListaRestaurantes.add(new Restaurantes("La Aldea","20USD","Comida tipica de la region","6042589569","Calle principal",5,R.drawable.restaurante02));
+        ListaRestaurantes.add(new Restaurantes("La Paila","10USD","Comida tipica de la region","6042589569","Calle principal",5,R.drawable.restaurante02));
+        ListaRestaurantes.add(new Restaurantes("El pilon","15USD","Comida tipica de la region","6042589569","Calle principal",5,R.drawable.restaurante02));
+        ListaRestaurantes.add(new Restaurantes("Maizal","30USD","Comida tipica de la region","6042589569","Calle principal",5,R.drawable.restaurante02));
+        ListaRestaurantes.add(new Restaurantes("El Molino","35USD","Comida tipica de la region","6042589569","Calle principal",5,R.drawable.restaurante02));
+
     }
 
 }

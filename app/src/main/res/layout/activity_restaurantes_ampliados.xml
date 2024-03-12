@@ -7,61 +7,114 @@
     tools:context=".RestaurantesAmpliados">
 
     <ImageView
-        android:id="@+id/fotoampliadorestaurante"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:adjustViewBounds="true"
-        android:src="@drawable/laceibahotel"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
+        android:layout_height="match_parent"
+        app:layout_constraintHeight="90dp"
+        android:background="@color/goldenrod"
         />
 
     <TextView
-        android:id="@+id/titulorestaurantes"
+        android:id="@+id/tituloampliadorestaurantes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="Restaurante"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintVertical_bias="0.03"
+        android:shadowColor="@color/black"
+        android:shadowRadius="30"
+        />
+
+    <TextView
+        android:id="@+id/telefonorestaurantes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="NOMBRE RESTAURANTE"
+        android:text="Telefono: 3206588963"
         android:textColor="@color/blue"
-        android:textSize="25dp"
+        android:textSize="18dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintHorizontal_bias="0.937"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/fotoampliadorestaurante"
-        app:layout_constraintVertical_bias="0"
+        app:layout_constraintTop_toBottomOf="@id/fotoampliadorestaurantes"
+        app:layout_constraintVertical_bias="0.0"
         android:shadowColor="@color/black"
         android:shadowRadius="3"
         />
 
+    <ImageView
+        android:id="@+id/fotoampliadorestaurantes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tituloampliadorestaurantes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.1"
+        android:src="@drawable/laceibahotel"
+        android:adjustViewBounds="true"
+        />
+
     <TextView
-        android:id="@+id/preciorestaurantes"
+        android:id="@+id/descripcionrestaurantes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="-Precios: $15USD-$20USD"
+        android:text="Nuestro hotel ofrece un ambiente tranquilo, y campestre. , habitaciones cómodas, limpias, agua caliente, parqueadero gratuito."
         android:textSize="18dp"
-        android:textColor="@color/black"
-        app:layout_constraintTop_toBottomOf="@id/titulorestaurantes"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fotoampliadorestaurantes"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintVertical_bias="0.40"
+        android:textAlignment="center"
+        />
 
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="108dp"
+        android:background="@color/goldenrod"
+        app:layout_constraintHeight="40dp"
+        app:layout_constraintTop_toBottomOf="@id/fotoampliadorestaurantes"
         />
 
     <TextView
         android:id="@+id/direccionrestaurantes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Calle buena mesa, Valparaiso, Antioquia"
+        android:text="Calle 10 Villa Nueva #8-73, Valparaiso, Antioquia"
         android:textSize="18dp"
-        android:textColor="@color/black"
-        app:layout_constraintTop_toBottomOf="@id/preciorestaurantes"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/descripcionrestaurantes"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.40"
+        app:layout_constraintVertical_bias="0.7"
         android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/calificacionrestaurantes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4 Estrellas"
+        android:textAlignment="textEnd"
+        android:textColor="@color/blue"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="@id/tituloampliadorestaurantes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+
+
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,4 +6,141 @@
     android:layout_height="match_parent"
     tools:context=".SitiosAmpliados">
 
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintHeight="90dp"
+        android:background="@color/blueviolet"
+        />
+
+    <TextView
+        android:id="@+id/tituloampliadositios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="Sitios"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintVertical_bias="0.03"
+        android:shadowColor="@color/black"
+        android:shadowRadius="30"
+        />
+
+    <TextView
+        android:id="@+id/telefonositios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telefono: 3206588963"
+        android:textColor="@color/blue"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fotoampliadositios"
+        app:layout_constraintVertical_bias="0.0"
+        android:shadowColor="@color/black"
+        android:shadowRadius="3"
+        />
+
+    <ImageView
+        android:id="@+id/fotoampliadositios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tituloampliadositios"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.1"
+        android:src="@drawable/laceibahotel"
+        android:adjustViewBounds="true"
+        />
+
+    <TextView
+        android:id="@+id/descripcionsitios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nuestro hotel ofrece un ambiente tranquilo, y campestre. , habitaciones cómodas, limpias, agua caliente, parqueadero gratuito."
+        android:textSize="18dp"
+        app:layout_constraintTop_toBottomOf="@id/fotoampliadositios"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintVertical_bias="0.40"
+        android:textAlignment="center"
+        />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="108dp"
+        android:background="@color/blueviolet"
+        app:layout_constraintHeight="40dp"
+        app:layout_constraintTop_toBottomOf="@id/fotoampliadositios"
+        />
+
+    <TextView
+        android:id="@+id/direccionsitios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calle 10 Villa Nueva #8-73, Valparaiso, Antioquia"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/descripcionsitios"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.40"
+        app:layout_constraintVertical_bias="0.7"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/calificacionsitios"
+        android:layout_width="match_parent"
+        android:layout_height= "wrap_content"
+        android:text="4 Estrellas"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textAlignment="textEnd"
+        />
+
+    <TextView
+        android:id="@+id/tarifasitios"
+        android:layout_width="match_parent"
+        android:layout_height= "wrap_content"
+        android:text="$5USD"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textAlignment="textEnd"
+        />
+    <TextView
+        android:id="@+id/horariositios"
+        android:layout_width="match_parent"
+        android:layout_height= "wrap_content"
+        android:text="Lunes a Viernes de 10am - 3pm"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@id/fotoampliadositios"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textAlignment="textEnd"
+        android:shadowColor="@color/black"
+        android:shadowRadius="3"
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
