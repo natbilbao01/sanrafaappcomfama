@@ -16,6 +16,9 @@
             android:name=".SitiosAmpliados"
             android:exported="false" />
         <activity
+            android:name=".ListaRestaurantes"
+            android:exported="false" />
+        <activity
             android:name=".RestaurantesAmpliados"
             android:exported="false" />
         <activity
